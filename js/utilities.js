@@ -3,6 +3,10 @@ function scrollToDiv(target) {
     targetDiv.scrollIntoView({ behavior: 'smooth' }); 
 }
 
-document.getElementById("scrollToFirst").onclick = function() { 
+document.getElementById('scrollToFirst').onclick = function() { 
     scrollToDiv('firstContent');
+};
+
+document.getElementById('devopsButton').onclick = function() { 
+    scrollToDiv('devopsContent');
 };

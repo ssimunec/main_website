@@ -82,7 +82,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
     z-index: 1;
 }
 
@@ -92,6 +92,10 @@ button {
 
 #contact.jumbotron-custom {
     background: url("../img/cover-footer.jpg") center;
+}
+
+.jumbotron.jumbotron-content {
+    background-color: #fff;
 }
 
 /********** banner **********/
