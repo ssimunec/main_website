@@ -50,7 +50,7 @@ button {
 }
 
 .cta-blue:hover {
-    color: #ffffff;
+    color: #fff;
     background: #447ee1;
 }
 
@@ -177,12 +177,28 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #447ee1;
 }
 
 #copyright #social-media a:hover i {
-    color: #ffffff;
+    color: #fff;
 }
+
+/********** WCAG **********/
+a:focus,
+#copyright #social-media a:focus {
+    outline: none;
+    background-color: #f9f871;
+    color: #447ee1;
+}
+
+a:focus img {
+    outline: solid;
+}
+
+a.text-white:focus {
+    background-color: transparent;
+} 
 
 /********** RWD **********/
 @media (max-width: 575px) {
