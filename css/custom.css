@@ -157,9 +157,9 @@ button {
 }
 /********** portfolio **********/
 
-.feature  .app-factur-mobile {
-    width: 150px;
+.feature  .app-factur-images {
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 /********** copyright **********/
